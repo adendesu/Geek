@@ -15,7 +15,7 @@ public class Laser_Tail_Player : MonoBehaviour {
         time++;
         if(time>230)//60フレーム後に削除
         {
-            Destroy(gameObject);
+           // Destroy(gameObject);
         }
 	}
 }
